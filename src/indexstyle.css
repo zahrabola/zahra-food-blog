@@ -1,0 +1,19 @@
+.carousel .carousel-indicators li {
+  background-color: #fc6a03;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+.carousel-control-prev-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.carousel-control-next-icon {
+  width: 34px;
+  height: 34px;
+}
+.col-sm-2 {
+  margin-bottom: 5px;
+}
