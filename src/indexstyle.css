@@ -17,3 +17,69 @@
 .col-sm-2 {
   margin-bottom: 5px;
 }
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  font-weight: 200;
+  outline: none;
+}
+.navbar.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar.navbar-expand-lg .navbar-nav .active .nav-link {
+  color: #fc6c3f;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #fc6c3f;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+.Food-logo {
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+  font-weight: 300;
+  font-family: "Amatic SC", cursive;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+section {
+  margin: 10px;
+  padding-top: 30px;
+}
+.s1-img {
+  border-radius: 30px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.catagory-title {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  border-radius: 30px;
+  left: 22%;
+  color: black;
+}
+.catagory-title:hover {
+  background-color: #fc6c3f;
+}
+#text-s1 {
+  font-style: italic;
+  padding-top: 10px;
+  color: black;
+}
+#text-s1:hover {
+  color: white;
+}
