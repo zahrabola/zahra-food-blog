@@ -74,6 +74,7 @@ section {
 }
 .catagory-title:hover {
   background-color: #fc6c3f;
+  color: white;
 }
 #text-s1 {
   font-style: italic;
@@ -82,4 +83,27 @@ section {
 }
 #text-s1:hover {
   color: white;
+}
+#card1 {
+  width: 400;
+  height: 300;
+  border-radius: 30px;
+}
+#card2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+#card3 {
+  padding-bottom: 10px;
+  border-radius: 30px;
+}
+#btn-cr {
+  border-radius: 30px;
+  background-color: #f8f9fa;
+  padding: auto;
+}
+#btn-cr:hover {
+  background-color: #fc6a03;
+  color: #f8f9fa;
 }
